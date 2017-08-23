@@ -2,3 +2,9 @@
 nbproject/project.properties
 
 nbproject/project.xml
+
+api/uploads/.DS_Store
+
+.DS_Store
+
+/api/uploads/
