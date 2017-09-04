@@ -5,6 +5,22 @@ html, body {
     background: #e7f1fb;
 }
 
+.actived {
+    border-bottom: 4px solid #84BD00;
+    padding-bottom: 4px;
+}
+
+.central {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.seguro {
+    margin-top: -30px;
+    background: #222326;
+    position: absolute;
+}
+
 .head-title {
     font-size: 20px;
     font-weight: bold;
@@ -62,4 +78,58 @@ html, body {
 
 .btn-logout {
     cursor: pointer;
+}
+
+.artist_image_for_edit img {
+    width: 150px;
+}
+
+.artist-list {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.artist-item {
+    width: 23%;
+    margin: 0px;
+    padding: 0px;
+    height: 317px;
+    border: 1px solid #444;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.artist-item .artist-image {
+    height: 245px;
+    width: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.artist-item .artist-image img {
+    height: 100%;
+}
+
+.artist-item .artist-name {
+    color: white;
+    padding: 10px;
+    background: #222326;
+}
+
+.artist-item .artist-name a {
+    color: white;
+}
+
+#artist-head-card .image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+#artist-head-card .image img {
+    height: 150px;
 }
